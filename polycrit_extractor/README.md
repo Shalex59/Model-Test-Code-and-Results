@@ -92,7 +92,8 @@ If a key is accidentally exposed, revoke it immediately in the Anthropic Console
 
 ## Test the API connection
 
-A quick test can be run with the test_api.py 
+A quick API connection test is provided in `test_api.py`. Run it with:
+python test_api.py
 
 test_api.py is already in the directory.
 But below is the tempory script called test_api.py

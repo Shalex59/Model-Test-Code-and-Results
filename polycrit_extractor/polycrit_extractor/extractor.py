@@ -22,7 +22,7 @@ try:
     import anthropic
 except ImportError as exc:  # pragma: no cover
     raise ImportError(
-        "anthropic SDK is required. Install with: pip install anthropic --break-system-packages"
+        "anthropic SDK is required. Install it with: python -m pip install anthropic"
     ) from exc
 
 from . import pdf_utils
