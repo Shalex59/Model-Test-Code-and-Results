@@ -2,7 +2,7 @@
 
 Usage:
     python -m polycrit_extractor paper.pdf -o paper_extracted.xlsx
-    python -m polycrit_extractor paper.pdf -o out.xlsx --model claude-opus-4-8 --dedupe
+    python -m polycrit_extractor paper.pdf -o out.xlsx --model claude-sonnet-4-6 --dedupe
 """
 
 from __future__ import annotations

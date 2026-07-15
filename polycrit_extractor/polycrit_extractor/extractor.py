@@ -29,7 +29,7 @@ from . import pdf_utils
 from .prompts import SYSTEM_PROMPT, build_user_prompt
 from .schema import build_json_schema
 
-DEFAULT_MODEL = "claude-sonnet-5"
+DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_MAX_TOKENS = 16000
 
 
